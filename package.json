@@ -1,0 +1,28 @@
+{
+  "name": "test-nextjs",
+  "version": "1.0.0",
+  "description": "https://nextjs.org/",
+  "main": "index.js",
+  "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sobeychr/test-nextjs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sobeychr/test-nextjs/issues"
+    },
+    "homepage": "https://github.com/sobeychr/test-nextjs#readme",
+    "dependencies": {
+        "next": "^8.1.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    }
+}
