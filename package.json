@@ -4,9 +4,9 @@
     "description": "https://nextjs.org/",
     "main": "index.js",
     "scripts": {
-        "dev": "next",
+        "dev": "node server.js",
         "build": "next build",
-        "start": "next start",
+        "start": "node server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -21,6 +21,7 @@
     },
     "homepage": "https://github.com/sobeychr/test-nextjs#readme",
     "dependencies": {
+        "dotenv": "^8.0.0",
         "express": "^4.16.4",
         "next": "^8.1.0",
         "react": "^16.8.6",

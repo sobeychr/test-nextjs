@@ -1,4 +1,4 @@
-import Layout from './../components/Layout';
+import withLayout from './../components/Layout';
 
 const Page = () => <p>About page</p>;
 
