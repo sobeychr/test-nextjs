@@ -14,6 +14,8 @@ app
     .then(() => {
         const server = express();
 
+        server.use('/db', express.static('./database'));
+
         server.get('/p/:id', (req, res) => {
             const actualPage = '/post';
             const queryParams = { title: req.params.id };
