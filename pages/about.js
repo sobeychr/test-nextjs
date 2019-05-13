@@ -1,11 +1,6 @@
-import Link from 'next/link';
-
 import Layout from './../components/Layout';
 
-const About = () => (
-    <Layout>
-        <p>About page</p>
-    </Layout>
-);
+const Page = () => <p>About page</p>;
 
-export default About;
+export default withLayout(Page);
+
