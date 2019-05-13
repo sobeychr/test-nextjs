@@ -1,9 +1,9 @@
 {
-  "name": "test-nextjs",
-  "version": "1.0.0",
-  "description": "https://nextjs.org/",
-  "main": "index.js",
-  "scripts": {
+    "name": "test-nextjs",
+    "version": "1.0.0",
+    "description": "https://nextjs.org/",
+    "main": "index.js",
+    "scripts": {
         "dev": "next",
         "build": "next build",
         "start": "next start",
@@ -21,8 +21,12 @@
     },
     "homepage": "https://github.com/sobeychr/test-nextjs#readme",
     "dependencies": {
+        "express": "^4.16.4",
         "next": "^8.1.0",
         "react": "^16.8.6",
         "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+        "cross-env": "^5.2.0"
     }
 }
