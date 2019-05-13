@@ -19,7 +19,11 @@ const Page = (props) => (
 );
 
 Page.getInitialProps = async () => {
-    const res = await fetch('/db/batman.json');
+    // const data = fetch('https://api.tvmaze.com/search/shows?q=batman')
+        // .then(res => res.json());
+
+    // const res = await fetch('https://api.tvmaze.com/search/shows?q=batman');
+    const res = await fetch('http://localhost:3000/db/batman.json');
     const data = await res.json();
 
     console.log(`Show data fetched. Count: ${data.length}`);
