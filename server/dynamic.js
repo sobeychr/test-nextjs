@@ -1,16 +1,43 @@
-const paths = {
-    '/d/:page' : '/dym'
-};
+const { isProduction } = require('./config');
+const { info } = require('./logs');
+
+const logString = 'info';
+const logValue = 'bgBlue';
+const log = ({url, page, params}) => {
+    if(!isProduction) {
+        console.log(
+            '> added dynamic path'[logString],
+            page[logValue],
+            'to listen as'[logString],
+            url[logValue],
+            'with params'[logString],
+            params
+        );
+    }
+}
+
+const paths = [
+    {
+        url: '/d/:page',
+        page: '/dym',
+        params: ['page']
+    }
+];
 
 const dynamicServer = (server, app) => {
-    Object.keys(paths).forEach(url => {
-        const actualPage = paths[url];
-        console.log('[dynamicServer]', url, actualPage);
+    paths.forEach(entry => {
+        const { url, page, params } = entry;
+        log(entry);
 
         server.get(url, (req, res) => {
-            const queryParams = { page: req.params.page };
-            app.render(req, res, actualPage, queryParams);
+            const query = {};
+            params.forEach(entry => {
+                query[entry] = req.params[entry];
+            });
+            
+            app.render(req, res, page, query);    
         });
+
     });
 };
 

@@ -10,6 +10,7 @@ const env = isDev
         ? 'stage'
         : 'prod';
 
+const host = process.env.host || 'http://localhost';
 const port = process.env.PORT || 3000;
 
 module.exports = {
@@ -17,5 +18,6 @@ module.exports = {
     isStage,
     isProduction,
     env,
+    host,
     port
 };

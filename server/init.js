@@ -1,4 +1,5 @@
-const { env, isProduction, port } = require('./config');
+const { isProduction, env, host, port } = require('./config');
+const { error, info, log }  = require('./logs');
 const dynamicServer = require('./dynamic');
 const staticServer = require('./static');
 
@@ -8,7 +9,7 @@ const next = require('next');
 const app = next({ isProduction });
 const handle = app.getRequestHandler();
 
-console.log('> launching server as', env);
+info('launching as', env);
 
 app
     .prepare()
@@ -26,10 +27,11 @@ app
             if(err) {
                 throw err;
             }
-            console.log('> Ready on http://localhost:' + port);
+            log('Ready on', (host + ':' + port));
         });
     })
-    .catch(ex => {
-        console.error(ex.stack);
+    .catch(err => {
+        // console.error(err.stack);
+        error('Unable to launch server', err);
         process.exit(1);
     });
