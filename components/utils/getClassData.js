@@ -11,17 +11,17 @@ export const getClassData = (classId) => {
     return res;
 };
 
-export const getSkillData = (typeId) => {
-    const res = skillTypesData.find(entry => entry.class === classId);
+export const getSkillsFromType = (typeId) => {
+    const res = skillsData.filter(entry => entry.typeId === typeId);
     return res;
 };
 
-export const getSkillType = (typeId) => {
+export const getSkillTypeData = (typeId) => {
     const res = skillTypesData.find(entry => entry.id === typeId);
     return res;
 };
 
-export const getSkillTypes = (classId) => {
-    const res = skillTypesData.filter(entry => entry.class === classId);
+export const getSkillTypesFromClass = (classId) => {
+    const res = skillTypesData.filter(entry => entry.classId === classId);
     return res;
 };

@@ -20,9 +20,7 @@ const Menu = ({page}) => {
             <style jsx>{`
                 aside {
                     box-shadow: 0 0 3px 3px rgba(255,255,255, .15);
-                    left: 0;
-                    position: absolute;
-                    top: 0;
+                    float: left;
                     width: 100px;
                 }
                 aside a {

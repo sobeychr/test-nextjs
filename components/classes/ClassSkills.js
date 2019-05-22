@@ -2,10 +2,10 @@ import Link from 'next/link';
 
 import ClassSkillLink from './ClassSkillLink';
 
-import { getSkillTypes } from 'Utils/getClassData';
+import { getSkillTypesFromClass } from 'Utils/getClassData';
 
 const ClassSkills = ({classId}) => {
-    const skills = getSkillTypes(classId);
+    const skills = getSkillTypesFromClass(classId);
 
     return (
         <div>

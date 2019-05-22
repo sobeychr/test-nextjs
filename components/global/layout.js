@@ -5,18 +5,20 @@ import Menu from './Menu';
 import Styles from './Styles';
 
 const Layout = ({children, page='', title=''}) => (
-    <div>
+    <div id='page'>
         <Styles />
-        <div id='page'>
-            <Header title={title} />
-            <Menu page={page} />
-            <main>
-                {children}
-            </main>
-        </div>
+        <Header title={title} />
+        <Menu page={page} />
+        <main>
+            {children}
+        </main>
 
         <style jsx>{`
             #page {
+                margin: 0 auto;
+                max-width: 950px;
+            }
+            main {
                 margin-left: 120px;
             }
         `}</style>

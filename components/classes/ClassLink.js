@@ -12,6 +12,7 @@ const ClassLink = ({id, name, styles}) => (
                 a {
                     background: #FFF;
                     border-radius: 50%;
+                    box-shadow: inset 0 0 30px 15px #000;
                     color: transparent;
                     display: block;
                     opacity: 0;
@@ -20,7 +21,7 @@ const ClassLink = ({id, name, styles}) => (
                     transition: opacity .3s linear;
                 }
                 a:hover {
-                    opacity: .15;
+                    opacity: .25;
                 }
             `}</style>
         </a>

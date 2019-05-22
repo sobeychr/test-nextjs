@@ -25,6 +25,7 @@ const Classes = () => (
             nav {
                 background: #000 url(${classImage}) top left no-repeat;
                 height: 330px;
+                margin: 0 auto;
                 position: relative;
                 width: 542px;
             }

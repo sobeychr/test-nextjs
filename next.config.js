@@ -8,6 +8,7 @@ const alias = [
     ['Db', 'database'],
     ['Global', 'components/global'],
     ['Server', 'Server'],
+    ['Skills', 'components/skills'],
     ['Utils', 'components/utils'],
 ];
 

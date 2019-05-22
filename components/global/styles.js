@@ -13,10 +13,11 @@ const Styles = () => (
             padding: 20px;
         }
         a {
-            color: #FFF;
+            color: #928A72;
             text-decoration: none;
         }
         a:hover {
+            color: #B4AC92;
             text-decoration: underline;
         }
         .clearfix:after,
