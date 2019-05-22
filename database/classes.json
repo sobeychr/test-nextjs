@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "amazon",
+        "listPosition": {
+            "left": 26,
+            "height": 214,
+            "top": 80,
+            "width": 86
+        }
+    },
+    {
+        "id": 2,
+        "name": "assassin",
+        "listPosition": {
+            "left": 82,
+            "height": 183,
+            "top": 60,
+            "width": 84
+        }
+    },
+    {
+        "id": 3,
+        "name": "barbarian",
+        "listPosition": {
+            "left": 232,
+            "height": 183,
+            "top": 24,
+            "width": 79
+        }
+    },
+    {
+        "id": 4,
+        "name": "druid",
+        "listPosition": {
+            "left": 378,
+            "height": 208,
+            "top": 43,
+            "width": 86
+        }
+    },
+    {
+        "id": 5,
+        "name": "necromancer",
+        "listPosition": {
+            "left": 135,
+            "height": 193,
+            "top": 31,
+            "width": 109
+        }
+    },
+    {
+        "id": 6,
+        "name": "paladin",
+        "listPosition": {
+            "left": 435,
+            "height": 158,
+            "top": 129,
+            "width": 106
+        }
+    },
+    {
+        "id": 7,
+        "name": "sorceress",
+        "listPosition": {
+            "left": 314,
+            "height": 189,
+            "top": 28,
+            "width": 95
+        }
+    }
+]

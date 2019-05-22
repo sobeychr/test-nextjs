@@ -15,7 +15,9 @@ const log = (url, page) => {
 }
 
 const paths = {
-    '/t' : './html'
+    '/a': './assets',
+    '/d': './database',
+    '/t': './html'
 };
 
 const staticServer = (server, express) => {

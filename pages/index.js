@@ -1,12 +1,12 @@
 import Link from 'next/link';
+import Layout from 'Global/layout';
 
-const Page = () => (
-    <div>
-        <Link href='about'>
-            <a>About</a>
-        </Link>
-        <p>Hello Next.js</p>
-    </div>
+import { getRandomParagraph } from 'Utils/getRandomText';
+
+const Index = () => (
+    <Layout title='Diablo 2 Expansion guide'>
+        {getRandomParagraph()}
+    </Layout>
 );
 
-export default Page;
+export default Index;

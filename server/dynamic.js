@@ -21,7 +21,12 @@ const paths = [
         url: '/d/:page',
         page: '/dym',
         params: ['page']
-    }
+    },
+    {
+        url: '/classes/:className',
+        page: '/class',
+        params: ['className']
+    },
 ];
 
 const dynamicServer = (server, app) => {
