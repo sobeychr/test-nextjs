@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "jab",
+        "class": 1,
+        "type": 1
+    },
+    {
+        "id": 2,
+        "name": "power strike",
+        "class": 1,
+        "type": 1
+    },
+    {
+        "id": 3,
+        "name": "inner sight",
+        "class": 1,
+        "type": 2
+    },
+    {
+        "id": 4,
+        "name": "critical strike",
+        "class": 1,
+        "type": 2
+    },
+    {
+        "id": 5,
+        "name": "magic arrow",
+        "class": 1,
+        "type": 3
+    },
+    {
+        "id": 6,
+        "name": "fire arrow",
+        "class": 1,
+        "type": 3
+    }
+]

@@ -3,7 +3,7 @@ import Link from 'next/link';
 const ClassLink = ({id, name, styles}) => (
     <Link
         as={'/classes/' + name}
-        href={'/class?className=' + name}
+        href={'/class?classId=' + id}
         >
         <a alt={name} style={styles} title={name}>
             {name}

@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import Layout from 'Global/layout';
+import Layout from 'Global/Layout';
 
-import ClassLink from 'Comp/classes/ClassLink';
+import ClassLink from 'Classes/ClassLink';
 
 import classImage from 'Assets/classes.jpg';
 import classData from 'Db/classes';

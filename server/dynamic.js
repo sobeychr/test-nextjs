@@ -14,28 +14,25 @@ const log = ({url, page, params}) => {
             params
         );
     }
-}
+};
 
 const paths = [
     {
-        url: '/d/:page',
-        page: '/dym',
-        params: ['page']
-    },
-    {
-        url: '/classes/:className',
+        url: '/classes/:classId',
         page: '/class',
-        params: ['className']
-    },
+        params: ['classId']
+    }
 ];
 
 const dynamicServer = (server, app) => {
+    let query;
+
     paths.forEach(entry => {
         const { url, page, params } = entry;
         log(entry);
 
         server.get(url, (req, res) => {
-            const query = {};
+            query = {};
             params.forEach(entry => {
                 query[entry] = req.params[entry];
             });

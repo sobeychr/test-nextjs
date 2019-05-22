@@ -3,9 +3,11 @@ const withImages = require('next-images');
 
 const alias = [
     ['Assets', 'assets'],
+    ['Classes', 'components/classes'],
     ['Comp', 'components'],
     ['Db', 'database'],
     ['Global', 'components/global'],
+    ['Server', 'Server'],
     ['Utils', 'components/utils'],
 ];
 

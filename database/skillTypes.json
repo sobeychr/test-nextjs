@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "class": 1,
+        "name": "javelin and spear skills"
+    },
+    {
+        "id": 2,
+        "class": 1,
+        "name": "passive and magic skills"
+    },
+    {
+        "id": 3,
+        "class": 1,
+        "name": "bow and crossbow skills"
+    },
+    {
+        "id": 4,
+        "class": 2,
+        "name": "martial arts"
+    },
+    {
+        "id": 5,
+        "class": 2,
+        "name": "shadow disciplines"
+    },
+    {
+        "id": 6,
+        "class": 2,
+        "name": "traps"
+    }
+]

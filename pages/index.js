@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Layout from 'Global/layout';
+import Layout from 'Global/Layout';
 
 import { getRandomParagraph } from 'Utils/getRandomText';
 

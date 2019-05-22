@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
-import Header from './header';
-import Menu from './menu';
-import Styles from './styles';
+import Header from './Header';
+import Menu from './Menu';
+import Styles from './Styles';
 
 const Layout = ({children, page='', title=''}) => (
     <div>

@@ -13,6 +13,9 @@ const Menu = ({page}) => {
                 <Link href='/items'>
                     <a>Items</a>
                 </Link>
+                <Link href='/skills'>
+                    <a>Skills</a>
+                </Link>
             </nav>
             <style jsx>{`
                 aside {

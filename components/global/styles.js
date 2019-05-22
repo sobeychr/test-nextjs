@@ -19,6 +19,12 @@ const Styles = () => (
         a:hover {
             text-decoration: underline;
         }
+        .clearfix:after,
+        .clearfix:before {
+            clear: both;
+            content: " ";
+            display: table;
+        }
     `}</style>
 );
 
