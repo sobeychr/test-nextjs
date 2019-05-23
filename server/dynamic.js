@@ -1,45 +1,60 @@
-const { isProduction } = require('./config');
-const { info } = require('./logs');
+const { getClassFromUrl, getTypeFromUrl } = require('./utils');
 
-const logString = 'info';
-const logValue = 'bgBlue';
-const log = ({url, page, params}) => {
-    if(!isProduction) {
-        console.log(
-            '> added dynamic path'[logString],
-            page[logValue],
-            'to listen as'[logString],
-            url[logValue],
-            'with params'[logString],
-            params
-        );
-    }
+const redirect = (res, path) => {
+    res.statusCode = 301;
+    res.redirect(path);
 };
-
-const paths = [
-    {
-        url: '/classes/:classId',
-        page: '/class',
-        params: ['classId']
-    }
-];
 
 const dynamicServer = (server, app) => {
     let query;
 
-    paths.forEach(entry => {
-        const { url, page, params } = entry;
-        log(entry);
+    // Class page
+    server.get([
+        /classes\//,
+        '/classes/:classUrl'
+    ], (req, res) => {
+        const { classUrl } = req.params;
 
-        server.get(url, (req, res) => {
-            query = {};
-            params.forEach(entry => {
-                query[entry] = req.params[entry];
-            });
-            
-            app.render(req, res, page, query);    
-        });
+        const classData = getClassFromUrl(classUrl);
+        if(!classData) {
+            redirect(res, '/classes');
+            return;
+        }
 
+        const query = { classId: classData.id };
+        app.render(req, res, '/class', query);
+    });
+
+    // Skills page
+    server.get([
+        /skills\//,
+        '/skills/:classUrl',
+        '/skills/:classUrl/:typeUrl'
+    ], (req, res) => {
+        const { classUrl, typeUrl } = req.params;
+
+        if(!classUrl || !typeUrl) {
+            redirect(res, '/skills');
+            return;
+        }
+
+        const classData = getClassFromUrl(classUrl);
+        if(!classData) {
+            redirect(res, '/skills');
+            return;
+        }
+
+        const typeData = getTypeFromUrl(classData.id, typeUrl);
+        if(!typeData) {
+            redirect(res, '/skills');
+            return;
+        }
+
+        const query = {
+            classId: classData.id,
+            typeId: typeData.id
+        };
+        app.render(req, res, '/skill', query);
     });
 };
 

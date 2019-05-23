@@ -1,5 +1,5 @@
 const { isProduction, env, host, port } = require('./config');
-const { error, info, log }  = require('./logs');
+const { error, info, success }  = require('./logs');
 const dynamicServer = require('./dynamic');
 const staticServer = require('./static');
 
@@ -27,7 +27,7 @@ app
             if(err) {
                 throw err;
             }
-            log('Ready on', (host + ':' + port));
+            success('Ready on', (host + ':' + port));
         });
     })
     .catch(err => {
