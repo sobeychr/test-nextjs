@@ -1,11 +1,12 @@
-import Link from 'next/link';
 import Layout from 'Global/Layout';
 
-import { getRandomParagraph } from 'Utils/getRandomText';
+import NewsEntry from 'News/NewsEntry';
+
+import { newsSorted } from 'Utils/getNewsData';
 
 const Index = () => (
     <Layout title='Diablo 2 Expansion guide'>
-        {getRandomParagraph()}
+        {newsSorted.map((entry, index) => <NewsEntry entry={entry} key={index} />)}
     </Layout>
 );
 
