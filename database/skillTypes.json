@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "classId": 1,
+        "name": "javelin and spear skills"
+    },
+    {
+        "id": 2,
+        "classId": 1,
+        "name": "passive and magic skills"
+    },
+    {
+        "id": 3,
+        "classId": 1,
+        "name": "bow and crossbow skills"
+    },
+    {
+        "id": 4,
+        "classId": 2,
+        "name": "martial arts"
+    },
+    {
+        "id": 5,
+        "classId": 2,
+        "name": "shadow disciplines"
+    },
+    {
+        "id": 6,
+        "classId": 2,
+        "name": "traps"
+    },
+    {
+        "id": 7,
+        "classId": 3,
+        "name": "combat skills"
+    },
+    {
+        "id": 8,
+        "classId": 3,
+        "name": "combat masteries"
+    },
+    {
+        "id": 9,
+        "classId": 3,
+        "name": "warcries"
+    },
+    {
+        "id": 10,
+        "classId": 4,
+        "name": "elemental skills"
+    },
+    {
+        "id": 11,
+        "classId": 4,
+        "name": "shapeshifting skills"
+    },
+    {
+        "id": 12,
+        "classId": 4,
+        "name": "summoning skills"
+    },
+    {
+        "id": 13,
+        "classId": 5,
+        "name": "summoning spells"
+    },
+    {
+        "id": 14,
+        "classId": 5,
+        "name": "poison and bone spells"
+    },
+    {
+        "id": 15,
+        "classId": 5,
+        "name": "curses"
+    },
+    {
+        "id": 16,
+        "classId": 6,
+        "name": "defensive auras"
+    },
+    {
+        "id": 17,
+        "classId": 6,
+        "name": "offensive auras"
+    },
+    {
+        "id": 18,
+        "classId": 6,
+        "name": "combat skills"
+    },
+    {
+        "id": 19,
+        "classId": 7,
+        "name": "cold spells"
+    },
+    {
+        "id": 20,
+        "classId": 7,
+        "name": "lightning spells"
+    },
+    {
+        "id": 21,
+        "classId": 7,
+        "name": "fire spells"
+    }
+]

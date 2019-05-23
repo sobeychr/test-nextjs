@@ -1,11 +1,12 @@
 {
-  "name": "test-nextjs",
-  "version": "1.0.0",
-  "description": "https://nextjs.org/",
-  "main": "index.js",
-  "scripts": {
-        "dev": "next",
+    "name": "test-nextjs",
+    "version": "1.0.0",
+    "description": "https://nextjs.org/",
+    "main": "index.js",
+    "scripts": {
         "build": "next build",
+        "dev": "next",
+        "server": "node server/init.js",
         "start": "next start",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -21,8 +22,17 @@
     },
     "homepage": "https://github.com/sobeychr/test-nextjs#readme",
     "dependencies": {
+        "colors": "^1.3.3",
+        "cross-env": "^5.2.0",
+        "dotenv": "^8.0.0",
+        "express": "^4.16.4",
+        "isomorphic-unfetch": "^3.0.0",
         "next": "^8.1.0",
+        "next-images": "^1.1.1",
+        "path": "^0.12.7",
         "react": "^16.8.6",
-        "react-dom": "^16.8.6"
-    }
+        "react-dom": "^16.8.6",
+        "react-markdown": "^4.0.8"
+    },
+    "devDependencies": {}
 }

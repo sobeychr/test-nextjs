@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "name": "amazon",
+        "description": "Quisque pretium, tortor vel mollis consectetur, nunc ex venenatis lorem, non sodales dui massa a velit. In eu risus leo. Nam mollis lorem eu nisl accumsan malesuada. Proin vitae enim volutpat, vehicula odio sit amet, faucibus tortor. Sed semper magna in mi bibendum, id pulvinar lorem luctus. Aenean sit amet turpis imperdiet, ullamcorper purus quis, congue nibh. Nulla lobortis ac eros quis egestas.",
+        "listPosition": {
+            "left": 26,
+            "height": 214,
+            "top": 80,
+            "width": 86
+        }
+    },
+    {
+        "id": 2,
+        "name": "assassin",
+        "description": "Donec placerat dolor venenatis arcu luctus, nec venenatis tortor elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt mi in eleifend porttitor. Vivamus lobortis velit at semper pellentesque. Nam nunc purus, iaculis non ultrices a, molestie at nulla.",
+        "listPosition": {
+            "left": 82,
+            "height": 183,
+            "top": 60,
+            "width": 84
+        }
+    },
+    {
+        "id": 3,
+        "name": "barbarian",
+        "description": "Praesent consequat lorem vitae nunc sagittis pharetra. Etiam augue nunc, dapibus egestas viverra id, mattis a dui. Phasellus id fringilla ipsum. Ut vel enim at metus bibendum faucibus a scelerisque sem. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+        "listPosition": {
+            "left": 232,
+            "height": 183,
+            "top": 24,
+            "width": 79
+        }
+    },
+    {
+        "id": 4,
+        "name": "druid",
+        "description": "Suspendisse volutpat bibendum diam eget viverra. Quisque at magna condimentum, volutpat erat convallis, fermentum diam. Vivamus euismod ut justo non euismod. Suspendisse volutpat scelerisque sapien sit amet tincidunt. Aliquam consectetur lorem ex, et interdum lectus tristique vitae. Nullam finibus, ex non bibendum tincidunt, purus est fermentum arcu, vel mattis ex massa ac odio. Aliquam faucibus leo ac lectus tristique hendrerit. Ut vel metus non libero facilisis mollis et in tortor. Curabitur malesuada feugiat ex. Sed tempor metus mi, non posuere neque faucibus ac. Nulla facilisi.",
+        "listPosition": {
+            "left": 378,
+            "height": 208,
+            "top": 43,
+            "width": 86
+        }
+    },
+    {
+        "id": 5,
+        "name": "necromancer",
+        "description": "Fusce finibus leo erat. Nulla facilisi. Sed varius enim sit amet lorem laoreet pretium. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec porta lectus at mauris commodo consectetur.",
+        "listPosition": {
+            "left": 135,
+            "height": 193,
+            "top": 31,
+            "width": 89
+        }
+    },
+    {
+        "id": 6,
+        "name": "paladin",
+        "description": "Donec eu metus sit amet ipsum egestas maximus ac sed purus. Aliquam lacus leo, eleifend vel sagittis quis, fermentum sed nisi. Etiam pretium vitae massa non aliquam. Ut tempus ipsum nec magna ultrices dictum. Nunc et risus nec neque euismod pellentesque nec eu nisl. Aliquam quis dui interdum, feugiat lorem sit amet, interdum turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce suscipit neque ac sem accumsan pharetra. Sed tempor porttitor augue, a vulputate augue fringilla at.",
+        "listPosition": {
+            "left": 435,
+            "height": 158,
+            "top": 129,
+            "width": 106
+        }
+    },
+    {
+        "id": 7,
+        "name": "sorceress",
+        "description": "Aliquam malesuada scelerisque suscipit. Etiam id urna et nibh condimentum vehicula id eget mi. Maecenas varius pellentesque justo, at rhoncus orci faucibus sit amet.",
+        "listPosition": {
+            "left": 314,
+            "height": 189,
+            "top": 28,
+            "width": 95
+        }
+    }
+]

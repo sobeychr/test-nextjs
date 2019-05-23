@@ -1,0 +1,176 @@
+[
+    {
+        "id": 1,
+        "name": "jab",
+        "classId": 1,
+        "typeId": 1
+    },
+    {
+        "id": 2,
+        "name": "power strike",
+        "classId": 1,
+        "typeId": 1
+    },
+    {
+        "id": 3,
+        "name": "poison javelin",
+        "classId": 1,
+        "typeId": 1
+    },
+    {
+        "id": 4,
+        "name": "impale",
+        "classId": 1,
+        "typeId": 1
+    },
+    {
+        "id": 5,
+        "name": "lightning bold",
+        "classId": 1,
+        "typeId": 1
+    },
+    {
+        "id": 6,
+        "name": "charged strike",
+        "classId": 1,
+        "typeId": 1
+    },
+    {
+        "id": 7,
+        "name": "plague javelin",
+        "classId": 1,
+        "typeId": 1
+    },
+    {
+        "id": 8,
+        "name": "fend",
+        "classId": 1,
+        "typeId": 1
+    },
+    {
+        "id": 9,
+        "name": "lightning strike",
+        "classId": 1,
+        "typeId": 1
+    },
+    {
+        "id": 10,
+        "name": "inner sight",
+        "classId": 1,
+        "typeId": 2
+    },
+    {
+        "id": 11,
+        "name": "critical strike",
+        "classId": 1,
+        "typeId": 2
+    },
+    {
+        "id": 12,
+        "name": "dodge",
+        "classId": 1,
+        "typeId": 2
+    },
+    {
+        "id": 13,
+        "name": "slow missiles",
+        "classId": 1,
+        "typeId": 2
+    },
+    {
+        "id": 14,
+        "name": "inner sight",
+        "classId": 1,
+        "typeId": 2
+    },
+    {
+        "id": 15,
+        "name": "avoid",
+        "classId": 1,
+        "typeId": 2
+    },
+    {
+        "id": 16,
+        "name": "penetrate",
+        "classId": 1,
+        "typeId": 2
+    },
+    {
+        "id": 17,
+        "name": "decoy",
+        "classId": 1,
+        "typeId": 2
+    },
+    {
+        "id": 18,
+        "name": "evade",
+        "classId": 1,
+        "typeId": 2
+    },
+    {
+        "id": 19,
+        "name": "valkerie",
+        "classId": 1,
+        "typeId": 2
+    },
+    {
+        "id": 20,
+        "name": "magic arrow",
+        "classId": 1,
+        "typeId": 3
+    },
+    {
+        "id": 21,
+        "name": "fire arrow",
+        "classId": 1,
+        "typeId": 3
+    },
+    {
+        "id": 22,
+        "name": "cold arrow",
+        "classId": 1,
+        "typeId": 3
+    },
+    {
+        "id": 23,
+        "name": "multiple shot",
+        "classId": 1,
+        "typeId": 3
+    },
+    {
+        "id": 24,
+        "name": "exploding arrow",
+        "classId": 1,
+        "typeId": 3
+    },
+    {
+        "id": 25,
+        "name": "ice arrow",
+        "classId": 1,
+        "typeId": 3
+    },
+    {
+        "id": 26,
+        "name": "guided arrow",
+        "classId": 1,
+        "typeId": 3
+    },
+    {
+        "id": 27,
+        "name": "immolation arrow",
+        "classId": 1,
+        "typeId": 3
+    },
+    {
+        "id": 28,
+        "name": "strafe",
+        "classId": 1,
+        "typeId": 3
+    },
+    {
+        "id": 29,
+        "name": "freezing arrow",
+        "classId": 1,
+        "typeId": 3
+    }
+]
