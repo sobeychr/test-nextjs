@@ -5,7 +5,7 @@ colors.setTheme({
     debug: 'grey',
     error: 'red',
     info: 'cyan',
-    log: 'magenta',
+    log: 'white',
     success: 'green',
     warning: 'yellow'
 });
