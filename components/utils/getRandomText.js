@@ -35,5 +35,5 @@ export const getRandomText = (min=50, max=150, all=false) => {
 
     const length = Math.floor(Math.random() * (max - min + 1)) + min;
     const start = Math.floor(Math.random() * (text.length - length + 1));
-    return text.substr(start);
+    return text.substr(start, length);
 };

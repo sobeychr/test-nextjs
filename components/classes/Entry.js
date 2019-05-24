@@ -1,16 +1,11 @@
-import ClassSkills from 'Classes/ClassSkills';
+import TypeList from 'Skills/TypeList';
 
-import { getClassData } from 'Utils/getClassData';
-
-const SkillTypeClass = ({classId}) => {
-    const classData = getClassData(classId);
-    
-    return (
-        <div className='entry'>
-            <p>{classData.name}</p>
-            <div className='skills'>
-                <ClassSkills classId={classId} />
-            </div>
+const Entry = ({id, name}) => (
+    <div className='entry'>
+        <p>{name}</p>
+        <div className='skills'>
+            <TypeList classId={id} />
+        </div>
 
             <style jsx>{`
                 .entry {
@@ -27,8 +22,7 @@ const SkillTypeClass = ({classId}) => {
                     margin-left: 30px;
                 }
             `}</style>
-        </div>
-    );
-};
+    </div>
+);
 
-export default SkillTypeClass;
+export default Entry;

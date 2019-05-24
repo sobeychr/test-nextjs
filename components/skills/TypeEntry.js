@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 import { getClassData, getSkillTypeData } from 'Utils/getClassData';
 
-const ClassSkillLink = ({typeId}) => {
+const TypeEntry = ({typeId}) => {
     const skillData = getSkillTypeData(typeId);
     const classData = getClassData(skillData.classId);
     const alias = skillData.name.replace(/\ /g, '-');
@@ -37,4 +37,4 @@ const ClassSkillLink = ({typeId}) => {
     );
 };
 
-export default ClassSkillLink;
+export default TypeEntry;

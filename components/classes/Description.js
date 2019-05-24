@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const ClassDescription = ({description, name}) => {
+const Description = ({description, name}) => {
     const imgSrc = require('Assets/classes/' + name + '.jpg');
 
     return (
@@ -9,6 +9,10 @@ const ClassDescription = ({description, name}) => {
             {description}
 
             <style jsx>{`
+                p {
+                    margin: 0;
+                    padding: 0;
+                }
                 img {
                     float: left;
                     max-height: 500px;
@@ -19,4 +23,4 @@ const ClassDescription = ({description, name}) => {
     );
 };
 
-export default ClassDescription;
+export default Description;

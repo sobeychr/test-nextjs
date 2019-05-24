@@ -1,14 +1,11 @@
-import Link from 'next/link';
 import Layout from 'Global/Layout';
 
-import SkillTypeClass from 'Classes/SkillTypeClass';
+import SkillList from 'Classes/SkillList';
 
-import classData from 'Db/classes';
-
-const Skills = () => (
+const Page = () => (
     <Layout title='Skills'>
-        {classData.map((entry, index) => <SkillTypeClass classId={entry.id} key={index} />)}
+        <SkillList />
     </Layout>
 );
 
-export default Skills;
+export default Page;

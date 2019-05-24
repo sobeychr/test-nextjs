@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const ClassLink = ({id, name, styles}) => (
+const ImageEntry = ({id, name, styles}) => (
     <Link
         as={'/classes/' + name}
         href={'/class?classId=' + id}
@@ -28,4 +28,4 @@ const ClassLink = ({id, name, styles}) => (
     </Link>
 );
 
-export default ClassLink;
+export default ImageEntry;

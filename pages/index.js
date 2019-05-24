@@ -1,13 +1,11 @@
 import Layout from 'Global/Layout';
 
-import NewsEntry from 'News/NewsEntry';
+import List from 'News/List';
 
-import { newsSorted } from 'Utils/getNewsData';
-
-const Index = () => (
+const Page = () => (
     <Layout title='Diablo 2 Expansion guide'>
-        {newsSorted.map((entry, index) => <NewsEntry entry={entry} key={index} />)}
+        <List />
     </Layout>
 );
 
-export default Index;
+export default Page;

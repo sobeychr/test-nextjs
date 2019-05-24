@@ -2,26 +2,14 @@ import classData from 'Db/classes';
 import skillTypesData from 'Db/skillTypes';
 import skillsData from 'Db/skills';
 
-export const getClassData = (classId) => {
-    const res = classData.find(entry => entry.id === classId);
+export const getClassData = (classId) => classData.find(entry => entry.id === classId);
 
-    // console.log('[getClassData]', 'classData', classData);
-    // console.log('[getClassData]', classId, res);
+export const getSkillData = (skillId) => skillsData.find(entry => entry.id === skillId);
 
-    return res;
-};
+export const getSkillsFromType = (typeId) => skillsData.filter(entry => entry.typeId === typeId);
 
-export const getSkillsFromType = (typeId) => {
-    const res = skillsData.filter(entry => entry.typeId === typeId);
-    return res;
-};
+export const getSkillTypeData = (typeId) => skillTypesData.find(entry => entry.id === typeId);
 
-export const getSkillTypeData = (typeId) => {
-    const res = skillTypesData.find(entry => entry.id === typeId);
-    return res;
-};
+export const getSkillTypeImg = (typeId) => require('Assets/skills/tree-' + typeId + '.jpg');
 
-export const getSkillTypesFromClass = (classId) => {
-    const res = skillTypesData.filter(entry => entry.classId === classId);
-    return res;
-};
+export const getSkillTypesFromClass = (classId) => skillTypesData.filter(entry => entry.classId === classId);

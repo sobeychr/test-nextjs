@@ -2,47 +2,92 @@
     {
         "id": 1,
         "name": "jab",
-        "typeId": 1
+        "typeId": 1,
+        "pos": {
+            "col": 1,
+            "row": 1
+        }
     },
     {
         "id": 2,
         "name": "power strike",
-        "typeId": 1
+        "typeId": 1,
+        "pos": {
+            "col": 2,
+            "row": 2
+        }
     },
     {
         "id": 3,
         "name": "poison javelin",
-        "typeId": 1
+        "typeId": 1,
+        "pos": {
+            "col": 3,
+            "row": 2
+        }
     },
     {
         "id": 4,
         "name": "impale",
-        "typeId": 1
+        "typeId": 1,
+        "pos": {
+            "col": 1,
+            "row": 3
+        }
     },
     {
         "id": 5,
         "name": "lightning bold",
-        "typeId": 1
+        "typeId": 1,
+        "pos": {
+            "col": 3,
+            "row": 3
+        }
     },
     {
         "id": 6,
         "name": "charged strike",
-        "typeId": 1
+        "typeId": 1,
+        "pos": {
+            "col": 2,
+            "row": 4
+        }
     },
     {
         "id": 7,
         "name": "plague javelin",
-        "typeId": 1
+        "typeId": 1,
+        "pos": {
+            "col": 3,
+            "row": 4
+        }
     },
     {
         "id": 8,
         "name": "fend",
-        "typeId": 1
+        "typeId": 1,
+        "pos": {
+            "col": 1,
+            "row": 5
+        }
     },
     {
         "id": 9,
         "name": "lightning strike",
-        "typeId": 1
+        "typeId": 1,
+        "pos": {
+            "col": 2,
+            "row": 6
+        }
+    },
+    {
+        "id": 10,
+        "name": "lightning fury",
+        "typeId": 1,
+        "pos": {
+            "col": 3,
+            "row": 6
+        }
     },
     {
         "id": 10,

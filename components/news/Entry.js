@@ -1,8 +1,6 @@
 import { timestampToDate } from 'Utils/dates';
 
-const NewsEntry = ({entry}) => {
-
-    return (
+const Entry = ({entry}) => (
     <div>
         <p className='title'>
             <span className='subtitle'>{entry.title}</span>
@@ -41,6 +39,5 @@ const NewsEntry = ({entry}) => {
         `}</style>
     </div>
 );
-}
 
-export default NewsEntry;
+export default Entry;
