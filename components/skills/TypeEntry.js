@@ -1,10 +1,11 @@
 import Link from 'next/link';
 
-import { getClassData, getSkillTypeData } from 'Utils/getClassData';
+import { getClassById } from 'Data/classes';
+import { getSkillTypeById } from 'Data/skills';
 
 const TypeEntry = ({typeId}) => {
-    const skillData = getSkillTypeData(typeId);
-    const classData = getClassData(skillData.classId);
+    const skillData = getSkillTypeById(typeId);
+    const classData = getClassById(skillData.classId);
     const alias = skillData.name.replace(/\ /g, '-');
 
     return (

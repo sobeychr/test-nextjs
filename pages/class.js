@@ -6,22 +6,22 @@ import Layout from 'Global/Layout';
 import Description from 'Classes/Description';
 import TypeList from 'Skills/TypeList';
 
-import { getClassData } from 'Utils/getClassData';
+import { getClassById } from 'Data/classes';
 
-const Page = ({classData}) => {
-    const { id, description, name } = classData;
+const Page = ({classId}) => {
+    const { name } = getClassById(classId);
     return (
         <Layout title={name}>
-            <Description name={name} description={description} />
-            <TypeList classId={id} />
+            <Description id={classId} />
+            <TypeList classId={classId} />
         </Layout>
     );
 };
 
 Page.getInitialProps = async (context) => {
-    const { classId } = context.query;
-    const classData = getClassData(parseInt(classId));
-    return { classData };
+    let { classId } = context.query;
+    classId = parseInt(classId);
+    return { classId };
 };
 
 export default withRouter(Page);

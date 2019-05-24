@@ -1,17 +1,17 @@
 import TreeEntry from './TreeEntry';
 
-import { getSkillTypeImg, getSkillsFromType } from 'Utils/getClassData';
+import { getSkillsByType, getTreeImage } from 'Data/skills';
 
 const TreeList = ({typeId}) => {
-    const imgSrc = getSkillTypeImg(typeId);
-    const skills = getSkillsFromType(typeId);
+    const imgSrc = getTreeImage(typeId);
+    const skills = getSkillsByType(typeId);
 
     return (
         <div>
             <img src={imgSrc} />
 
             <nav>
-                {skills.map((entry, index) => <TreeEntry {...entry} key={index}/> )}
+                {skills.map((entry, index) => <TreeEntry id={entry} key={index}/> )}
             </nav>
 
             <style jsx>{`

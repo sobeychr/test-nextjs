@@ -1,10 +1,9 @@
 import TypeEntry from './TypeEntry';
 
-import { getSkillTypesFromClass } from 'Utils/getClassData';
+import { getSkillTypeByClass } from 'Data/skills';
 
 const TypeList = ({classId}) => {
-    const types = getSkillTypesFromClass(classId);
-    
+    const types = getSkillTypeByClass(classId);
     return (
         <nav>
             {types.map((entry, index) => (

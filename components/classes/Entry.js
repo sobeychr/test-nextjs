@@ -1,11 +1,13 @@
 import TypeList from 'Skills/TypeList';
 
-const Entry = ({id, name}) => (
-    <div className='entry'>
-        <p>{name}</p>
-        <div className='skills'>
-            <TypeList classId={id} />
-        </div>
+const Entry = ({id}) => {
+    const { name } = getClassById(id);
+    return (
+        <div className='entry'>
+            <p>{name}</p>
+            <div className='skills'>
+                <TypeList classId={id} />
+            </div>
 
             <style jsx>{`
                 .entry {
@@ -22,7 +24,8 @@ const Entry = ({id, name}) => (
                     margin-left: 30px;
                 }
             `}</style>
-    </div>
-);
+        </div>
+    );
+};
 
 export default Entry;

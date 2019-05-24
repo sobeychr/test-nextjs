@@ -6,27 +6,25 @@ import Layout from 'Global/Layout';
 import List from 'Skills/List';
 import TreeList from 'Skills/TreeList';
 
-import {
-    getClassData,
-    getSkillTypeData
-} from 'Utils/getClassData';
+import { getClassById } from 'Data/classes';
+import { getSkillTypeById } from 'Data/skills';
 
-const Skill = (props) => {
-    const { id, classId, name } = props.typeData;
-    const classData = getClassData(classId);
+const Page = (props) => {
+    const { id, classId, name } = getSkillTypeById(props.typeId);
+    const { className } = getClassById(classId);
 
     return (
-        <Layout title={classData.name + ' > ' + name}>
+        <Layout title={className + ' > ' + name}>
             <TreeList typeId={id} />
             <List typeId={id} />
         </Layout>
     );
 };
 
-Skill.getInitialProps = async (context) => {
-    const { typeId } = context.query;
-    const typeData = getSkillTypeData(parseInt(typeId));
-    return { typeData };
+Page.getInitialProps = async (context) => {
+    let { typeId } = context.query;
+    typeId = parseInt(typeId);
+    return { typeId };
 };
 
-export default withRouter(Skill);
+export default withRouter(Page);

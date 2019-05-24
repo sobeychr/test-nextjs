@@ -92,857 +92,1532 @@
     {
         "id": 10,
         "name": "inner sight",
-        "typeId": 2
+        "typeId": 2,
+        "pos": {
+            "col": 1,
+            "row": 1
+        }
     },
     {
         "id": 11,
         "name": "critical strike",
-        "typeId": 2
+        "typeId": 2,
+        "pos": {
+            "col": 3,
+            "row": 1
+        }
     },
     {
         "id": 12,
         "name": "dodge",
-        "typeId": 2
+        "typeId": 2,
+        "pos": {
+            "col": 2,
+            "row": 2
+        }
     },
     {
         "id": 13,
         "name": "slow missiles",
-        "typeId": 2
-    },
-    {
-        "id": 14,
-        "name": "inner sight",
-        "typeId": 2
+        "typeId": 2,
+        "pos": {
+            "col": 1,
+            "row": 3
+        }
     },
     {
         "id": 15,
         "name": "avoid",
-        "typeId": 2
+        "typeId": 2,
+        "pos": {
+            "col": 2,
+            "row": 3
+        }
     },
     {
         "id": 16,
         "name": "penetrate",
-        "typeId": 2
+        "typeId": 2,
+        "pos": {
+            "col": 3,
+            "row": 4
+        }
     },
     {
         "id": 17,
         "name": "decoy",
-        "typeId": 2
+        "typeId": 2,
+        "pos": {
+            "col": 1,
+            "row": 5
+        }
     },
     {
         "id": 18,
         "name": "evade",
-        "typeId": 2
+        "typeId": 2,
+        "pos": {
+            "col": 2,
+            "row": 5
+        }
     },
     {
         "id": 19,
         "name": "valkerie",
-        "typeId": 2
+        "typeId": 2,
+        "pos": {
+            "col": 1,
+            "row": 6
+        }
+    },
+    {
+        "id": 19,
+        "name": "pierce",
+        "typeId": 2,
+        "pos": {
+            "col": 3,
+            "row": 6
+        }
     },
     {
         "id": 20,
         "name": "magic arrow",
-        "typeId": 3
+        "typeId": 3,
+        "pos": {
+            "col": 2,
+            "row": 1
+        }
     },
     {
         "id": 21,
         "name": "fire arrow",
-        "typeId": 3
+        "typeId": 3,
+        "pos": {
+            "col": 3,
+            "row": 1
+        }
     },
     {
         "id": 22,
         "name": "cold arrow",
-        "typeId": 3
+        "typeId": 3,
+        "pos": {
+            "col": 1,
+            "row": 2
+        }
     },
     {
         "id": 23,
         "name": "multiple shot",
-        "typeId": 3
+        "typeId": 3,
+        "pos": {
+            "col": 2,
+            "row": 2
+        }
     },
     {
         "id": 24,
         "name": "exploding arrow",
-        "typeId": 3
+        "typeId": 3,
+        "pos": {
+            "col": 3,
+            "row": 3
+        }
     },
     {
         "id": 25,
         "name": "ice arrow",
-        "typeId": 3
+        "typeId": 3,
+        "pos": {
+            "col": 1,
+            "row": 4
+        }
     },
     {
         "id": 26,
         "name": "guided arrow",
-        "typeId": 3
+        "typeId": 3,
+        "pos": {
+            "col": 2,
+            "row": 4
+        }
     },
     {
         "id": 27,
         "name": "immolation arrow",
-        "typeId": 3
+        "typeId": 3,
+        "pos": {
+            "col": 3,
+            "row": 5
+        }
     },
     {
         "id": 28,
         "name": "strafe",
-        "typeId": 3
+        "typeId": 3,
+        "pos": {
+            "col": 2,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "freezing arrow",
-        "typeId": 3
+        "typeId": 3,
+        "pos": {
+            "col": 1,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "tiger strike",
-        "typeId": 4
+        "typeId": 4,
+        "pos": {
+            "col": 2,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "dragon talon",
-        "typeId": 4
+        "typeId": 4,
+        "pos": {
+            "col": 3,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "dragon claw",
-        "typeId": 4
+        "typeId": 4,
+        "pos": {
+            "col": 3,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "fists of fire",
-        "typeId": 4
+        "typeId": 4,
+        "pos": {
+            "col": 1,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "cobra strike",
-        "typeId": 4
+        "typeId": 4,
+        "pos": {
+            "col": 2,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "dragon tail",
-        "typeId": 4
+        "typeId": 4,
+        "pos": {
+            "col": 3,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "claws of thunder",
-        "typeId": 4
+        "typeId": 4,
+        "pos": {
+            "col": 1,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "blades of ice",
-        "typeId": 4
+        "typeId": 4,
+        "pos": {
+            "col": 1,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "dragon flight",
-        "typeId": 4
+        "typeId": 4,
+        "pos": {
+            "col": 3,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "pheonix strike",
-        "typeId": 4
+        "typeId": 4,
+        "pos": {
+            "col": 2,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "claw mastery",
-        "typeId": 5
+        "typeId": 5,
+        "pos": {
+            "col": 2,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "psychic hammer",
-        "typeId": 5
+        "typeId": 5,
+        "pos": {
+            "col": 3,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "burst of speed",
-        "typeId": 5
+        "typeId": 5,
+        "pos": {
+            "col": 1,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "cloak of shadows",
-        "typeId": 5
-    },
-    {
-        "id": 29,
-        "name": "psychic hammer",
-        "typeId": 5
+        "typeId": 5,
+        "pos": {
+            "col": 3,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "weapon block",
-        "typeId": 5
+        "typeId": 5,
+        "pos": {
+            "col": 2,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "fade",
-        "typeId": 5
+        "typeId": 5,
+        "pos": {
+            "col": 1,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "shadow warrior",
-        "typeId": 5
+        "typeId": 5,
+        "pos": {
+            "col": 2,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "mind blast",
-        "typeId": 5
+        "typeId": 5,
+        "pos": {
+            "col": 3,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "venom",
-        "typeId": 5
+        "typeId": 5,
+        "pos": {
+            "col": 1,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "shadow master",
-        "typeId": 5
+        "typeId": 5,
+        "pos": {
+            "col": 2,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "fire blast",
-        "typeId": 6
+        "typeId": 6,
+        "pos": {
+            "col": 2,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "shock web",
-        "typeId": 6
+        "typeId": 6,
+        "pos": {
+            "col": 1,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "blade sentinel",
-        "typeId": 6
+        "typeId": 6,
+        "pos": {
+            "col": 3,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "charged bolt sentry",
-        "typeId": 6
+        "typeId": 6,
+        "pos": {
+            "col": 1,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "wake of fire",
-        "typeId": 6
+        "typeId": 6,
+        "pos": {
+            "col": 2,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "blade fury",
-        "typeId": 6
+        "typeId": 6,
+        "pos": {
+            "col": 3,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "lightning sentry",
-        "typeId": 6
+        "typeId": 6,
+        "pos": {
+            "col": 1,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "wake of inferno",
-        "typeId": 6
+        "typeId": 6,
+        "pos": {
+            "col": 2,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "death sentry",
-        "typeId": 6
+        "typeId": 6,
+        "pos": {
+            "col": 1,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "blade shield",
-        "typeId": 6
+        "typeId": 6,
+        "pos": {
+            "col": 3,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "bash",
-        "typeId": 7
+        "typeId": 7,
+        "pos": {
+            "col": 1,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "double swing",
-        "typeId": 7
+        "typeId": 7,
+        "pos": {
+            "col": 3,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "leap",
-        "typeId": 7
+        "typeId": 7,
+        "pos": {
+            "col": 1,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "double throw",
-        "typeId": 7
+        "typeId": 7,
+        "pos": {
+            "col": 3,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "stun",
-        "typeId": 7
+        "typeId": 7,
+        "pos": {
+            "col": 2,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "leap attack",
-        "typeId": 7
+        "typeId": 7,
+        "pos": {
+            "col": 1,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "concentrate",
-        "typeId": 7
+        "typeId": 7,
+        "pos": {
+            "col": 2,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "frenzy",
-        "typeId": 7
+        "typeId": 7,
+        "pos": {
+            "col": 3,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "whirlwind",
-        "typeId": 7
+        "typeId": 7,
+        "pos": {
+            "col": 1,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "berserk",
-        "typeId": 7
+        "typeId": 7,
+        "pos": {
+            "col": 2,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "sword mastery",
-        "typeId": 8
+        "typeId": 8,
+        "pos": {
+            "col": 1,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "axe mastery",
-        "typeId": 8
+        "typeId": 8,
+        "pos": {
+            "col": 2,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "mace mastery",
-        "typeId": 8
+        "typeId": 8,
+        "pos": {
+            "col": 1,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "polearm mastery",
-        "typeId": 8
+        "typeId": 8,
+        "pos": {
+            "col": 1,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "throwing mastery",
-        "typeId": 8
+        "typeId": 8,
+        "pos": {
+            "col": 2,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "spear mastery",
-        "typeId": 8
+        "typeId": 8,
+        "pos": {
+            "col": 3,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "increased stamina",
-        "typeId": 8
+        "typeId": 8,
+        "pos": {
+            "col": 1,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "iron skin",
-        "typeId": 8
+        "typeId": 8,
+        "pos": {
+            "col": 3,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "increased speed",
-        "typeId": 8
+        "typeId": 8,
+        "pos": {
+            "col": 1,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "natural resistance",
-        "typeId": 8
+        "typeId": 8,
+        "pos": {
+            "col": 3,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "howl",
-        "typeId": 9
+        "typeId": 9,
+        "pos": {
+            "col": 1,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "find potion",
-        "typeId": 9
+        "typeId": 9,
+        "pos": {
+            "col": 3,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "shout",
-        "typeId": 9
+        "typeId": 9,
+        "pos": {
+            "col": 2,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "taunt",
-        "typeId": 9
+        "typeId": 9,
+        "pos": {
+            "col": 1,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "battle cry",
-        "typeId": 9
+        "typeId": 9,
+        "pos": {
+            "col": 1,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "find item",
-        "typeId": 9
+        "typeId": 9,
+        "pos": {
+            "col": 3,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "battle orders",
-        "typeId": 9
+        "typeId": 9,
+        "pos": {
+            "col": 2,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "grim ward",
-        "typeId": 9
+        "typeId": 9,
+        "pos": {
+            "col": 3,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "war cry",
-        "typeId": 9
+        "typeId": 9,
+        "pos": {
+            "col": 1,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "battle command",
-        "typeId": 9
+        "typeId": 9,
+        "pos": {
+            "col": 2,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "firestorm",
-        "typeId": 10
+        "typeId": 10,
+        "pos": {
+            "col": 1,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "molten boulder",
-        "typeId": 10
+        "typeId": 10,
+        "pos": {
+            "col": 1,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "arctic blast",
-        "typeId": 10
+        "typeId": 10,
+        "pos": {
+            "col": 3,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "fissure",
-        "typeId": 10
+        "typeId": 10,
+        "pos": {
+            "col": 1,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "cyclone armor",
-        "typeId": 10
+        "typeId": 10,
+        "pos": {
+            "col": 3,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "twister",
-        "typeId": 10
+        "typeId": 10,
+        "pos": {
+            "col": 2,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "volcano",
-        "typeId": 10
+        "typeId": 10,
+        "pos": {
+            "col": 1,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "tornado",
-        "typeId": 10
+        "typeId": 10,
+        "pos": {
+            "col": 2,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "hurricane",
-        "typeId": 10
+        "typeId": 10,
+        "pos": {
+            "col": 2,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "armageddon",
-        "typeId": 10
+        "typeId": 10,
+        "pos": {
+            "col": 1,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "werewolf",
-        "typeId": 11
+        "typeId": 11,
+        "pos": {
+            "col": 1,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "lycanthropy",
-        "typeId": 11
+        "typeId": 11,
+        "pos": {
+            "col": 2,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "werebear",
-        "typeId": 11
+        "typeId": 11,
+        "pos": {
+            "col": 3,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "maul",
-        "typeId": 11
+        "typeId": 11,
+        "pos": {
+            "col": 3,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "feral rage",
-        "typeId": 11
+        "typeId": 11,
+        "pos": {
+            "col": 1,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "fire claws",
-        "typeId": 11
+        "typeId": 11,
+        "pos": {
+            "col": 2,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "rabies",
-        "typeId": 11
+        "typeId": 11,
+        "pos": {
+            "col": 1,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "shock wave",
-        "typeId": 11
+        "typeId": 11,
+        "pos": {
+            "col": 3,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "hunger",
-        "typeId": 11
+        "typeId": 11,
+        "pos": {
+            "col": 2,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "fury",
-        "typeId": 11
+        "typeId": 11,
+        "pos": {
+            "col": 1,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "raven",
-        "typeId": 12
+        "typeId": 12,
+        "pos": {
+            "col": 2,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "poison creeper",
-        "typeId": 12
+        "typeId": 12,
+        "pos": {
+            "col": 3,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "oak sage",
-        "typeId": 12
+        "typeId": 12,
+        "pos": {
+            "col": 1,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "summon spirit wolf",
-        "typeId": 12
+        "typeId": 12,
+        "pos": {
+            "col": 2,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "carrion vine",
-        "typeId": 12
+        "typeId": 12,
+        "pos": {
+            "col": 3,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "heart of wolverine",
-        "typeId": 12
+        "typeId": 12,
+        "pos": {
+            "col": 1,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "summon dire wolf",
-        "typeId": 12
+        "typeId": 12,
+        "pos": {
+            "col": 2,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "solar creeper",
-        "typeId": 12
+        "typeId": 12,
+        "pos": {
+            "col": 3,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "spirit of barbs",
-        "typeId": 12
+        "typeId": 12,
+        "pos": {
+            "col": 1,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "summon grizzly",
-        "typeId": 12
+        "typeId": 12,
+        "pos": {
+            "col": 2,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "raise skeleton",
-        "typeId": 13
+        "typeId": 13,
+        "pos": {
+            "col": 3,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "skeleton mastery",
-        "typeId": 13
+        "typeId": 13,
+        "pos": {
+            "col": 1,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "clay golem",
-        "typeId": 13
+        "typeId": 13,
+        "pos": {
+            "col": 2,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "golem mastery",
-        "typeId": 13
+        "typeId": 13,
+        "pos": {
+            "col": 1,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "skeletal mage",
-        "typeId": 13
+        "typeId": 13,
+        "pos": {
+            "col": 3,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "blood golem",
-        "typeId": 13
+        "typeId": 13,
+        "pos": {
+            "col": 2,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "summon resist",
-        "typeId": 13
+        "typeId": 13,
+        "pos": {
+            "col": 1,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "iron golem",
-        "typeId": 13
+        "typeId": 13,
+        "pos": {
+            "col": 2,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "fire golem",
-        "typeId": 13
+        "typeId": 13,
+        "pos": {
+            "col": 2,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "revive",
-        "typeId": 13
+        "typeId": 13,
+        "pos": {
+            "col": 3,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "teeth",
-        "typeId": 14
+        "typeId": 14,
+        "pos": {
+            "col": 2,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "bone armor",
-        "typeId": 14
+        "typeId": 14,
+        "pos": {
+            "col": 3,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "poison dagger",
-        "typeId": 14
+        "typeId": 14,
+        "pos": {
+            "col": 1,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "corpse explosion",
-        "typeId": 14
+        "typeId": 14,
+        "pos": {
+            "col": 2,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "bone wall",
-        "typeId": 14
+        "typeId": 14,
+        "pos": {
+            "col": 3,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "poison explosion",
-        "typeId": 14
+        "typeId": 14,
+        "pos": {
+            "col": 1,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "bone spear",
-        "typeId": 14
+        "typeId": 14,
+        "pos": {
+            "col": 2,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "bone prison",
-        "typeId": 14
+        "typeId": 14,
+        "pos": {
+            "col": 3,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "poison nova",
-        "typeId": 14
+        "typeId": 14,
+        "pos": {
+            "col": 1,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "bone spirit",
-        "typeId": 14
+        "typeId": 14,
+        "pos": {
+            "col": 2,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "amplify damage",
-        "typeId": 15
+        "typeId": 15,
+        "pos": {
+            "col": 2,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "dim vision",
-        "typeId": 15
+        "typeId": 15,
+        "pos": {
+            "col": 1,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "weaken",
-        "typeId": 15
+        "typeId": 15,
+        "pos": {
+            "col": 3,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "iron maiden",
-        "typeId": 15
+        "typeId": 15,
+        "pos": {
+            "col": 2,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "terror",
-        "typeId": 15
+        "typeId": 15,
+        "pos": {
+            "col": 3,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "confuse",
-        "typeId": 15
+        "typeId": 15,
+        "pos": {
+            "col": 1,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "life tap",
-        "typeId": 15
+        "typeId": 15,
+        "pos": {
+            "col": 2,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "attract",
-        "typeId": 15
+        "typeId": 15,
+        "pos": {
+            "col": 1,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "decrepify",
-        "typeId": 15
+        "typeId": 15,
+        "pos": {
+            "col": 3,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "lower resist",
-        "typeId": 15
+        "typeId": 15,
+        "pos": {
+            "col": 2,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "prayer",
-        "typeId": 16
+        "typeId": 16,
+        "pos": {
+            "col": 1,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "resist fire",
-        "typeId": 16
+        "typeId": 16,
+        "pos": {
+            "col": 3,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "resist cold",
-        "typeId": 16
+        "typeId": 16,
+        "pos": {
+            "col": 3,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "resist lightning",
-        "typeId": 16
+        "typeId": 16,
+        "pos": {
+            "col": 3,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "defiance",
-        "typeId": 16
+        "typeId": 16,
+        "pos": {
+            "col": 2,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "cleansing",
-        "typeId": 16
+        "typeId": 16,
+        "pos": {
+            "col": 1,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "vigor",
-        "typeId": 16
+        "typeId": 16,
+        "pos": {
+            "col": 2,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "meditation",
-        "typeId": 16
+        "typeId": 16,
+        "pos": {
+            "col": 1,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "redemption",
-        "typeId": 16
+        "typeId": 16,
+        "pos": {
+            "col": 2,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "salvation",
-        "typeId": 16
+        "typeId": 16,
+        "pos": {
+            "col": 3,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "might",
-        "typeId": 17
+        "typeId": 17,
+        "pos": {
+            "col": 1,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "holy fire",
-        "typeId": 17
+        "typeId": 17,
+        "pos": {
+            "col": 2,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "thorns",
-        "typeId": 17
+        "typeId": 17,
+        "pos": {
+            "col": 3,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "blessed aim",
-        "typeId": 17
+        "typeId": 17,
+        "pos": {
+            "col": 1,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "concentration",
-        "typeId": 17
+        "typeId": 17,
+        "pos": {
+            "col": 1,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "holy freeze",
-        "typeId": 17
+        "typeId": 17,
+        "pos": {
+            "col": 2,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "holy shock",
-        "typeId": 17
+        "typeId": 17,
+        "pos": {
+            "col": 2,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "sanctuary",
-        "typeId": 17
+        "typeId": 17,
+        "pos": {
+            "col": 3,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "fanaticism",
-        "typeId": 17
+        "typeId": 17,
+        "pos": {
+            "col": 1,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "conviction",
-        "typeId": 17
+        "typeId": 17,
+        "pos": {
+            "col": 3,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "sacrifice",
-        "typeId": 18
+        "typeId": 18,
+        "pos": {
+            "col": 1,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "smite",
-        "typeId": 18
+        "typeId": 18,
+        "pos": {
+            "col": 3,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "holy bolt",
-        "typeId": 18
+        "typeId": 18,
+        "pos": {
+            "col": 2,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "zeal",
-        "typeId": 18
+        "typeId": 18,
+        "pos": {
+            "col": 1,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "charge",
-        "typeId": 18
+        "typeId": 18,
+        "pos": {
+            "col": 3,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "vengeance",
-        "typeId": 18
+        "typeId": 18,
+        "pos": {
+            "col": 1,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "blessed hammer",
-        "typeId": 18
+        "typeId": 18,
+        "pos": {
+            "col": 2,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "conversion",
-        "typeId": 18
+        "typeId": 18,
+        "pos": {
+            "col": 1,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "holy shield",
-        "typeId": 18
+        "typeId": 18,
+        "pos": {
+            "col": 3,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "fist of the heavens",
-        "typeId": 18
+        "typeId": 18,
+        "pos": {
+            "col": 2,
+            "row": 6
+        }
     },
     {
         "id": 29,
@@ -952,146 +1627,262 @@
     {
         "id": 29,
         "name": "frozen armor",
-        "typeId": 19
+        "typeId": 19,
+        "pos": {
+            "col": 2,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "frost nova",
-        "typeId": 19
+        "typeId": 19,
+        "pos": {
+            "col": 1,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "ice blast",
-        "typeId": 19
+        "typeId": 19,
+        "pos": {
+            "col": 2,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "shiver armor",
-        "typeId": 19
+        "typeId": 19,
+        "pos": {
+            "col": 3,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "glacial spike",
-        "typeId": 19
+        "typeId": 19,
+        "pos": {
+            "col": 2,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "blizzard",
-        "typeId": 19
+        "typeId": 19,
+        "pos": {
+            "col": 2,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "chilling armor",
-        "typeId": 19
+        "typeId": 19,
+        "pos": {
+            "col": 3,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "frozen orb",
-        "typeId": 19
+        "typeId": 19,
+        "pos": {
+            "col": 1,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "cold mastery",
-        "typeId": 19
+        "typeId": 19,
+        "pos": {
+            "col": 2,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "charged bolt",
-        "typeId": 20
+        "typeId": 20,
+        "pos": {
+            "col": 2,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "telekinesis",
-        "typeId": 20
+        "typeId": 20,
+        "pos": {
+            "col": 3,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "static field",
-        "typeId": 20
+        "typeId": 20,
+        "pos": {
+            "col": 1,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "lightning",
-        "typeId": 20
+        "typeId": 20,
+        "pos": {
+            "col": 2,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "nova",
-        "typeId": 20
+        "typeId": 20,
+        "pos": {
+            "col": 1,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "chain lightning",
-        "typeId": 20
+        "typeId": 20,
+        "pos": {
+            "col": 2,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "teleport",
-        "typeId": 20
+        "typeId": 20,
+        "pos": {
+            "col": 3,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "thunder storm",
-        "typeId": 20
+        "typeId": 20,
+        "pos": {
+            "col": 1,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "energy shield",
-        "typeId": 20
+        "typeId": 20,
+        "pos": {
+            "col": 3,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "lightning mastery",
-        "typeId": 20
+        "typeId": 20,
+        "pos": {
+            "col": 2,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "fire bolt",
-        "typeId": 21
+        "typeId": 21,
+        "pos": {
+            "col": 2,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "warmth",
-        "typeId": 21
+        "typeId": 21,
+        "pos": {
+            "col": 3,
+            "row": 1
+        }
     },
     {
         "id": 29,
         "name": "inferno",
-        "typeId": 21
+        "typeId": 21,
+        "pos": {
+            "col": 1,
+            "row": 2
+        }
     },
     {
         "id": 29,
         "name": "blaze",
-        "typeId": 21
+        "typeId": 21,
+        "pos": {
+            "col": 1,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "fireball",
-        "typeId": 21
+        "typeId": 21,
+        "pos": {
+            "col": 2,
+            "row": 3
+        }
     },
     {
         "id": 29,
         "name": "firewall",
-        "typeId": 21
+        "typeId": 21,
+        "pos": {
+            "col": 1,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "enchant",
-        "typeId": 21
+        "typeId": 21,
+        "pos": {
+            "col": 3,
+            "row": 4
+        }
     },
     {
         "id": 29,
         "name": "meteor",
-        "typeId": 21
+        "typeId": 21,
+        "pos": {
+            "col": 2,
+            "row": 5
+        }
     },
     {
         "id": 29,
         "name": "fire mastery",
-        "typeId": 21
+        "typeId": 21,
+        "pos": {
+            "col": 2,
+            "row": 6
+        }
     },
     {
         "id": 29,
         "name": "hydra",
-        "typeId": 21
+        "typeId": 21,
+        "pos": {
+            "col": 3,
+            "row": 6
+        }
     }
 ]

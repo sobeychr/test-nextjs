@@ -3,19 +3,10 @@ import ImageEntry from './ImageEntry';
 import classImage from 'Assets/classes.jpg';
 import classData from 'Db/classes';
 
-const links = [];
-classData.forEach(entry => {
-    links.push({
-        id: entry.id,
-        name: entry.name,
-        styles: entry.listPosition
-    });
-});
-
 const ImageList = () => (
     <div>
         <nav>
-            {links.map((entry, index) => <ImageEntry {...entry} key={index} /> )}
+            {classData.map((entry, index) => <ImageEntry id={entry.id} key={index} /> )}
         </nav>
 
         <style jsx>{`

@@ -1,4 +1,7 @@
-const TreeEntry = ({name, pos}) => {
+import { getSkillById } from 'Data/skills';
+
+const TreeEntry = ({id}) => {
+    const { name, pos } getSkillById(id);
     const classes = [
         'col' + pos.col,
         'row' + pos.row

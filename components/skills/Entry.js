@@ -1,19 +1,19 @@
 import Icon from './Icon';
 
-import { getSkillData } from 'Utils/getClassData';
+import { getSkillById } from 'Data/skills';
 import { getRandomText } from 'Utils/getRandomText';
 
 const Entry = ({id}) => {
-    const { name, typeId, pos } = getSkillData(id);
-    const text = getRandomText();
+    const { name, pos } = getSkillById(id);
+    const text = getRandomText(200, 350);
 
     return (
         <div className='entry'>
             <p className='title'>
-                <Icon typeId={typeId} col={pos.col} row={pos.row} />
+                <Icon name={name} id={id} pos={pos} />
                 <span className='subtitle'>{name}</span>
             </p>
-            <p>{getRandomText(200, 350)}</p>
+            <p>{text}</p>
 
             <style jsx>{`
                 .entry {

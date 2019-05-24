@@ -1,19 +1,21 @@
 import Icon from './Icon';
 
-import { getSkillTypeImg } from 'Utils/getClassData';
+import { getTreeImage } from 'Utils/skills';
 
-const Entry = ({typeId, col, row}) => {
-    const imgSrc = getSkillTypeImg(typeId);
+const Entry = ({name, id, pos}) => {
+    const imgSrc = getTreeImage(id);
     const classes = [
-        'col' + col,
-        'row' + row
+        'col' + pos.col,
+        'row' + pos.row
     ];
 
     return (
         <span className={classes.join(' ')}>
+            <i>{name}</i>
             <style jsx>{`
                 span {
                     background: #000 url(${imgSrc}) no-repeat;
+                    color: transparent;
                     display: inline-block;
                     height: 47px;
                     width: 47px;

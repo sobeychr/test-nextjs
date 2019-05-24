@@ -5,6 +5,7 @@ const alias = [
     ['Assets', 'assets'],
     ['Classes', 'components/classes'],
     ['Comp', 'components'],
+    ['Data', 'components/utils/data'],
     ['Db', 'database'],
     ['Global', 'components/global'],
     ['News', 'components/news'],
