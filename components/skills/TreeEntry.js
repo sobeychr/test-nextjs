@@ -11,12 +11,18 @@ const TreeEntry = ({id}) => {
             {name}
             <style jsx>{`
                 span {
+                    background: #FFF;
                     color: transparent;
                     cursor: pointer;
                     display: block;
                     height: 48px;
+                    opacity: 0;
                     position: absolute;
+                    transition: opacity .3s linear;
                     width: 48px;
+                }
+                span:hover {
+                    opacity: .15;
                 }
                 span.col1 {
                     left: 16px;

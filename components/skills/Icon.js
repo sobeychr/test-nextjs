@@ -1,8 +1,7 @@
-import Icon from './Icon';
+import { getSkillById, getTreeImage } from 'Data/skills';
 
-import { getTreeImage } from 'Data/skills';
-
-const Entry = ({id, name, pos, typeId}) => {
+const Icon = ({id}) => {
+    const { name, pos, typeId } = getSkillById(id);
     const imgSrc = getTreeImage(typeId);
     const classes = [
         'col' + pos.col,
@@ -52,4 +51,4 @@ const Entry = ({id, name, pos, typeId}) => {
     );
 };
 
-export default Entry;
+export default Icon;

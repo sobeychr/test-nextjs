@@ -4,16 +4,15 @@ import { getSkillById } from 'Data/skills';
 import { getRandomText } from 'Utils/getRandomText';
 
 const Entry = ({id}) => {
-    const { name, pos, typeId } = getSkillById(id);
-    const text = getRandomText(200, 350);
-
+    const { description, name, pos, typeId } = getSkillById(id);
+    
     return (
         <div className='entry'>
             <p className='title'>
-                <Icon id={id} name={name} pos={pos} typeId={typeId} />
+                <Icon id={id} />
                 <span className='subtitle'>{name}</span>
             </p>
-            <p>{text}</p>
+            <p>{description}</p>
 
             <style jsx>{`
                 .entry {

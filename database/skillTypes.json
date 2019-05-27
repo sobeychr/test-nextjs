@@ -2,106 +2,127 @@
     {
         "id": 1,
         "classId": 1,
-        "name": "javelin and spear skills"
+        "name": "javelin and spear skills",
+        "pos": 1
     },
     {
         "id": 2,
         "classId": 1,
-        "name": "passive and magic skills"
+        "name": "passive and magic skills",
+        "pos": 2
     },
     {
         "id": 3,
         "classId": 1,
-        "name": "bow and crossbow skills"
+        "name": "bow and crossbow skills",
+        "pos": 3
     },
     {
         "id": 4,
         "classId": 2,
-        "name": "martial arts"
+        "name": "martial arts",
+        "pos": 1
     },
     {
         "id": 5,
         "classId": 2,
-        "name": "shadow disciplines"
+        "name": "shadow disciplines",
+        "pos": 2
     },
     {
         "id": 6,
         "classId": 2,
-        "name": "traps"
+        "name": "traps",
+        "pos": 3
     },
     {
         "id": 7,
         "classId": 3,
-        "name": "combat skills"
+        "name": "combat skills",
+        "pos": 3
     },
     {
         "id": 8,
         "classId": 3,
-        "name": "combat masteries"
+        "name": "combat masteries",
+        "pos": 2
     },
     {
         "id": 9,
         "classId": 3,
-        "name": "warcries"
+        "name": "warcries",
+        "pos": 1
     },
     {
         "id": 10,
         "classId": 4,
-        "name": "elemental skills"
+        "name": "elemental skills",
+        "pos": 1
     },
     {
         "id": 11,
         "classId": 4,
-        "name": "shapeshifting skills"
+        "name": "shapeshifting skills",
+        "pos": 2
     },
     {
         "id": 12,
         "classId": 4,
-        "name": "summoning skills"
+        "name": "summoning skills",
+        "pos": 3
     },
     {
         "id": 13,
         "classId": 5,
-        "name": "summoning spells"
+        "name": "summoning spells",
+        "pos": 1
     },
     {
         "id": 14,
         "classId": 5,
-        "name": "poison and bone spells"
+        "name": "poison and bone spells",
+        "pos": 2
     },
     {
         "id": 15,
         "classId": 5,
-        "name": "curses"
+        "name": "curses",
+        "pos": 3
     },
     {
         "id": 16,
         "classId": 6,
-        "name": "defensive auras"
+        "name": "defensive auras",
+        "pos": 1
     },
     {
         "id": 17,
         "classId": 6,
-        "name": "offensive auras"
+        "name": "offensive auras",
+        "pos": 2
     },
     {
         "id": 18,
         "classId": 6,
-        "name": "combat skills"
+        "name": "combat skills",
+        "pos": 3
     },
     {
         "id": 19,
         "classId": 7,
-        "name": "cold spells"
+        "name": "cold spells",
+        "pos": 1
     },
     {
         "id": 20,
         "classId": 7,
-        "name": "lightning spells"
+        "name": "lightning spells",
+        "pos": 2
     },
     {
         "id": 21,
         "classId": 7,
-        "name": "fire spells"
+        "name": "fire spells",
+        "pos": 3
     }
 ]
