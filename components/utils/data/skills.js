@@ -14,6 +14,8 @@ export const getAltSkillType = typeId => {
     ));
 };
 
+export const getSkillAlias = name => name.replace(/\ /g, '-');
+
 export const getSkillById = id => skillsData.find(entry => entry.id === id);
 
 export const getSkillsByType = typeId => skillsData.filter(entry => entry.typeId === typeId);
@@ -21,7 +23,7 @@ export const getSkillsByType = typeId => skillsData.filter(entry => entry.typeId
 export const getSkillLink = typeId => {
     const typeData = getSkillTypeById(typeId);
     const classData = getClassById(typeData.classId);
-    const alias = typeData.name.replace(/\ /g, '-');
+    const alias = getSkillAlias(typeData.name);
 
     return {
         alias: '/skills/' + classData.name + '/' + alias,

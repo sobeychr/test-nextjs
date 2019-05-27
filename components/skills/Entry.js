@@ -1,17 +1,18 @@
 import Icon from './Icon';
 
-import { getSkillById } from 'Data/skills';
+import { getSkillAlias, getSkillById } from 'Data/skills';
 import { getRandomText } from 'Utils/getRandomText';
 
 const Entry = ({id}) => {
     const { description, name, pos, typeId } = getSkillById(id);
+    const anchor = getSkillAlias(name);
     
     return (
         <div className='entry'>
-            <p className='title'>
+            <a className='title' id={anchor}>
                 <Icon id={id} />
                 <span className='subtitle'>{name}</span>
-            </p>
+            </a>
             <p>{description}</p>
 
             <style jsx>{`
