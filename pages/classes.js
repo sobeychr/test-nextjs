@@ -1,36 +1,11 @@
-import Link from 'next/link';
 import Layout from 'Global/Layout';
 
-import ClassLink from 'Classes/ClassLink';
+import ImageList from 'Classes/ImageList';
 
-import classImage from 'Assets/classes.jpg';
-import classData from 'Db/classes';
-
-const links = [];
-classData.forEach(entry => {
-    links.push({
-        id: entry.id,
-        name: entry.name,
-        styles: entry.listPosition
-    });
-});
-
-const Classes = () => (
+const Page = () => (
     <Layout title='Classes'>
-        <nav>
-            {links.map((entry, index) => <ClassLink {...entry} key={index} /> )}
-        </nav>
-
-        <style jsx>{`
-            nav {
-                background: #000 url(${classImage}) top left no-repeat;
-                height: 330px;
-                margin: 0 auto;
-                position: relative;
-                width: 542px;
-            }
-        `}</style>
+        <ImageList />
     </Layout>
 );
 
-export default Classes;
+export default Page;

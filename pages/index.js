@@ -1,12 +1,11 @@
-import Link from 'next/link';
 import Layout from 'Global/Layout';
 
-import { getRandomParagraph } from 'Utils/getRandomText';
+import List from 'News/List';
 
-const Index = () => (
+const Page = () => (
     <Layout title='Diablo 2 Expansion guide'>
-        {getRandomParagraph()}
+        <List />
     </Layout>
 );
 
-export default Index;
+export default Page;

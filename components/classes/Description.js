@@ -1,14 +1,21 @@
 import Link from 'next/link';
 
-const ClassDescription = ({description, name}) => {
-    const imgSrc = require('Assets/classes/' + name + '.jpg');
+import { getClassById, getClassImage } from 'Data/classes';
 
+const Description = ({id}) => {
+    const { name, description } = getClassById(id);
+    const imgSrc = getClassImage(id);
+    
     return (
         <p className='clearfix'>
             <img src={imgSrc} alt={name} title={name} />
             {description}
 
             <style jsx>{`
+                p {
+                    margin: 0;
+                    padding: 0;
+                }
                 img {
                     float: left;
                     max-height: 500px;
@@ -19,4 +26,4 @@ const ClassDescription = ({description, name}) => {
     );
 };
 
-export default ClassDescription;
+export default Description;

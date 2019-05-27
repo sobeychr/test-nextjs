@@ -22,9 +22,11 @@ const Styles = () => (
         }
         .clearfix:after,
         .clearfix:before {
-            clear: both;
             content: " ";
             display: table;
+        }
+        .clearfix:after {
+            clear: both;
         }
     `}</style>
 );

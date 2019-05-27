@@ -1,16 +1,15 @@
 import Link from 'next/link';
 
-import { getClassData, getSkillTypeData } from 'Utils/getClassData';
+import { getSkillLink, getSkillTypeById } from 'Data/skills';
 
-const ClassSkillLink = ({typeId}) => {
-    const skillData = getSkillTypeData(typeId);
-    const classData = getClassData(skillData.classId);
-    const alias = skillData.name.replace(/\ /g, '-');
+const TypeEntry = ({typeId}) => {
+    const skillData = getSkillTypeById(typeId);
+    const { alias, href } = getSkillLink(typeId);
 
     return (
         <Link
-            as={'/skills/' + classData.name + '/' + alias}
-            href={'/skill?typeId=' + typeId}
+            as={alias}
+            href={href}
             >
             <a>
                 {skillData.name}
@@ -37,4 +36,4 @@ const ClassSkillLink = ({typeId}) => {
     );
 };
 
-export default ClassSkillLink;
+export default TypeEntry;
