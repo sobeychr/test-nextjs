@@ -1,9 +1,9 @@
 import Entry from './Entry';
 
-import { getSkillTypeById } from 'Utils/skills';
+import { getSkillsByType } from 'Data/skills';
 
 const List = ({typeId}) => {
-    const list = getSkillTypeById(typeId);
+    const list = getSkillsByType(typeId);
 
     return (
         <div>

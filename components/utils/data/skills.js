@@ -5,7 +5,7 @@ import { zeroFill } from 'Utils/numbers';
 
 export const getSkillById = (id) => skillsData.find(entry => entry.id === id);
 
-export const getSkillsByType = (typeId) => skillsData.find(entry => entry.id === id);
+export const getSkillsByType = (typeId) => skillsData.filter(entry => entry.typeId === typeId);
 
 export const getSkillTypeById = (id) => skillTypesData.find(entry => entry.id === id);
 

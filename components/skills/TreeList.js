@@ -11,7 +11,7 @@ const TreeList = ({typeId}) => {
             <img src={imgSrc} />
 
             <nav>
-                {skills.map((entry, index) => <TreeEntry id={entry} key={index}/> )}
+                {skills.map((entry, index) => <TreeEntry id={entry.id} key={index}/> )}
             </nav>
 
             <style jsx>{`

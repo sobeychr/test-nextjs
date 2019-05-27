@@ -4,13 +4,13 @@ import { getSkillById } from 'Data/skills';
 import { getRandomText } from 'Utils/getRandomText';
 
 const Entry = ({id}) => {
-    const { name, pos } = getSkillById(id);
+    const { name, pos, typeId } = getSkillById(id);
     const text = getRandomText(200, 350);
 
     return (
         <div className='entry'>
             <p className='title'>
-                <Icon name={name} id={id} pos={pos} />
+                <Icon id={id} name={name} pos={pos} typeId={typeId} />
                 <span className='subtitle'>{name}</span>
             </p>
             <p>{text}</p>

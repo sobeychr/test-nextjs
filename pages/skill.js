@@ -11,10 +11,10 @@ import { getSkillTypeById } from 'Data/skills';
 
 const Page = (props) => {
     const { id, classId, name } = getSkillTypeById(props.typeId);
-    const { className } = getClassById(classId);
+    const classData = getClassById(classId);
 
     return (
-        <Layout title={className + ' > ' + name}>
+        <Layout title={classData.name + ' > ' + name}>
             <TreeList typeId={id} />
             <List typeId={id} />
         </Layout>

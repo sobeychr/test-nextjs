@@ -1,5 +1,7 @@
 import TypeList from 'Skills/TypeList';
 
+import { getClassById } from 'Data/classes';
+
 const Entry = ({id}) => {
     const { name } = getClassById(id);
     return (

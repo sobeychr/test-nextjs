@@ -1,9 +1,9 @@
 import Icon from './Icon';
 
-import { getTreeImage } from 'Utils/skills';
+import { getTreeImage } from 'Data/skills';
 
-const Entry = ({name, id, pos}) => {
-    const imgSrc = getTreeImage(id);
+const Entry = ({id, name, pos, typeId}) => {
+    const imgSrc = getTreeImage(typeId);
     const classes = [
         'col' + pos.col,
         'row' + pos.row
