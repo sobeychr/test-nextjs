@@ -8,6 +8,11 @@ const ItemList = ({difficultyId, typeId}) => {
     return (
         <div>
             {itemsData.map((entry, index) => <ItemEntry id={entry.id} key={index} />)}
+            <style jsx>{`
+                div {
+                    display: table;
+                }
+            `}</style>
         </div>
     );
 };
