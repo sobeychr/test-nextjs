@@ -8,6 +8,7 @@ const alias = [
     ['Data', 'components/utils/data'],
     ['Db', 'database'],
     ['Global', 'components/global'],
+    ['Items', 'components/items'],
     ['News', 'components/news'],
     ['Server', 'Server'],
     ['Skills', 'components/skills'],

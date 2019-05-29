@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "very slow"
+    },
+    {
+        "id": 2,
+        "name": "slow"
+    },
+    {
+        "id": 3,
+        "name": "normal"
+    },
+    {
+        "id": 4,
+        "name": "fast"
+    },
+    {
+        "id": 5,
+        "name": "very fast"
+    }
+]

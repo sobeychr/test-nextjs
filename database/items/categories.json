@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "weapon"
+    },
+    {
+        "id": 2,
+        "name": "armor"
+    },
+    {
+        "id": 3,
+        "name": "class-specific weapon"
+    },
+    {
+        "id": 4,
+        "name": "class-specific armor"
+    }
+]

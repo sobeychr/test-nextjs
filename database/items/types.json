@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "name": "1 handed axe",
+        "category": 1
+    },
+    {
+        "id": 2,
+        "name": "2 handed axe",
+        "category": 1
+    },
+    {
+        "id": 3,
+        "name": "bow",
+        "category": 1
+    },
+    {
+        "id": 4,
+        "name": "crossbow",
+        "category": 1
+    },
+    {
+        "id": 5,
+        "name": "dagger",
+        "category": 1
+    },
+    {
+        "id": 6,
+        "name": "javelin",
+        "category": 1
+    },
+    {
+        "id": 7,
+        "name": "1 handed mace",
+        "category": 1
+    },
+    {
+        "id": 8,
+        "name": "2 handed mace",
+        "category": 1
+    },
+    {
+        "id": 9,
+        "name": "polearm",
+        "category": 1
+    },
+    {
+        "id": 10,
+        "name": "scepter",
+        "category": 1
+    },
+    {
+        "id": 11,
+        "name": "staff",
+        "category": 1
+    },
+    {
+        "id": 12,
+        "name": "1 handed sword",
+        "category": 1
+    },
+    {
+        "id": 13,
+        "name": "2 handed sword",
+        "category": 1
+    },
+    {
+        "id": 14,
+        "name": "throwing",
+        "category": 1
+    },
+    {
+        "id": 15,
+        "name": "wand",
+        "category": 1
+    },
+    {
+        "id": 16,
+        "name": "amazon weapon",
+        "category": 3
+    },
+    {
+        "id": 17,
+        "name": "assassin katar",
+        "category": 3
+    },
+    {
+        "id": 18,
+        "name": "sorceress orb",
+        "category": 3
+    },
+    {
+        "id": 19,
+        "name": "helm",
+        "category": 2
+    },
+    {
+        "id": 20,
+        "name": "armor",
+        "category": 2
+    },
+    {
+        "id": 21,
+        "name": "shield",
+        "category": 2
+    },
+    {
+        "id": 22,
+        "name": "glove",
+        "category": 2
+    },
+    {
+        "id": 23,
+        "name": "boot",
+        "category": 2
+    },
+    {
+        "id": 24,
+        "name": "belt",
+        "category": 2
+    },
+    {
+        "id": 25,
+        "name": "barbarian helm",
+        "category": 4
+    },
+    {
+        "id": 26,
+        "name": "druid pelt",
+        "category": 4
+    },
+    {
+        "id": 27,
+        "name": "paladin shield",
+        "category": 4
+    },
+    {
+        "id": 28,
+        "name": "necromancer shrunken head",
+        "category": 4
+    }
+]
