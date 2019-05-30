@@ -8,7 +8,7 @@ const ItemIcon = ({name, image, typeId}) => {
             <style jsx>{`
                 div {
                     background: transparent url(${imgSrc}) top no-repeat;
-                    display: inline-block;
+                    float: left;
                     height: 119px;
                     width: 63px;
                 }

@@ -1,4 +1,4 @@
-import ItemEntry from './ItemEntry';
+import ItemEntry from './entry';
 
 import { getItems } from 'Data/items';
 
